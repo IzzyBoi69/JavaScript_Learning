@@ -41,7 +41,7 @@ let guess;
 while (guess != 0) {
     guess = parseInt(prompt("Guess a number"))
     if (guess == number) {
-        alert('winner') 0
+        alert('winner')
         break;
     }
 }
